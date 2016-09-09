@@ -6,6 +6,26 @@ toast的基本封装,包括单例化,成功和失败的提示吐司
 # 使用
 
 拷贝demo中提供的包装类MyToast来使用,作为包装层,避免直接使用库内部的类(ToastUtil)
+然后添加gradle依赖:
+
+Step 1. Add the JitPack repository to your build file
+
+gradle
+
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+	
+Step 2. Add the dependency
+
+	dependencies {
+	        compile 'com.github.glassLake:MyToast:1.0.0'
+	}
 
 
 
