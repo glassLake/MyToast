@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        MyToast.init(getApplicationContext(),new Handler(),false);
+        MyToast.init(getApplication(),new Handler(),true,true);
     }
 
     String text = "金鳞岂是池中物,一遇风云便化龙";
@@ -37,10 +37,10 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.button:
-                MyToast.showToast(text);
+                MyToast.showToast("short");
                 break;
             case R.id.button2:
-                MyToast.showLongToast(text);
+                MyToast.showLongToast(text+"long");
                 break;
             case R.id.button3:
                 MyToast.showDebugToast(text);

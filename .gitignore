@@ -1,27 +1,13 @@
-.gradle
-*.properties
-/.navigation
-/.gradle
-/gradle
-.idea
-.DS_Store
-/build
-/captures
-/gradle/wrapper/gradle-2.2.1-all.zip
-#.groject
-#.claspath
-#./idea/vcs.xml
-#./settings
-#app/.classpath
-#app/.project
-#app/.settings
-MyDaoGenerator/build/distributions/MyDaoGenerator.tar
-MyDaoGenerator/build/distributions/MyDaoGenerator.zip
-MyDaoGenerator/build/libs/MyDaoGenerator.jar
-MyDaoGenerator/build/scripts/MyDaoGenerator
-MyDaoGenerator/build/scripts/MyDaoGenerator.bat
-MyDaoGenerator/build/tmp/jar/MANIFEST.MF
+# generated files
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+# Android Studio
 *.iml
-*.rar
-*.zip
-*.log
+.idea
+.gradle
+build/
+
+# Log Files
+.gitignore
