@@ -3,6 +3,9 @@ toast的封装,包括单例化,成功和失败的提示吐司,解决小米手机
 
 [![](https://jitpack.io/v/glassLake/MyToast.svg)](https://jitpack.io/#glassLake/MyToast)
 
+# Deprecated
+此库不再维护,新库地址请看:[ https://github.com/hss01248/ToastFinal](https://github.com/hss01248/ToastFinal)
+
 
 
 # 特点
